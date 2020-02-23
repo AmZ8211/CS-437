@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CPSC437-Project</title>
+</head>
+<body>
+	<div align="center">
+		{% for line in portfolioComponents.split('\n') %}
+		    <pre>{{line}}</pre>
+		{% endfor %}
+	</div>
+	<div style="width:1250px;">
+	  <div style="width:250; float:right;">
+	  	{% for line in portfolioStats.split('\n') %}
+		    <pre>{{line}}</pre>
+		{% endfor %}
+	  </div>
+	  <div style="width:1000; float:left;">
+		<img src="{{ url_for('download_file', filename='image.png') }}", width=960, height=540>	
+	  </div>
+	</div>
+</body>
+</html>

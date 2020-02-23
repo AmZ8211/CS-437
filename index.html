@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CPSC437-Project</title>
+</head>
+<body>
+	<!-- Find Portfolio Paragraph -->
+	<table align="center">
+		<caption><h2>Find Portfolio</h2></caption>
+		<thead>
+			<tr>
+				<th>Email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<form action="" method="POST">
+					<td>{{  find_port_form.Find_Portfolio }}</td>
+					<td>{{  find_port_form.SubmitFind_Port }}</td>
+				</form>
+			</tr>
+		</tbody>
+	</table>
+	<hr/>
+
+	<!-- Add Stock Paragraph -->
+	<table align="center">
+		<caption><h2>Add Stock</h2></caption>
+		<thead>
+			<tr>
+				<th>Email</th>
+				<th>Stock</th>
+				<th>Price</th>
+				<th>Quantity</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<form action="" method="POST">
+					<td>{{  add_form.Add_Portfolio }}</td>
+					<td>{{  add_form.Add_Ticker }}</td>
+					<td>{{  add_form.Price }}</td>
+					<td>{{  add_form.Quantity }}</td>
+					<td>{{  add_form.SubmitAdd }}</td>
+				</form>
+			</tr>
+		</tbody>
+	</table>
+	<hr/>
+
+	<!-- Liquidate Stock Paragraph -->
+	<table align="center">
+		<caption><h2>Liquidate Stock</h2></caption>
+		<thead>
+			<tr>
+				<th>Email</th>
+				<th>Stock</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<form action="" method="POST">
+					<td>{{  liquidate_form.Liquidate_Portfolio }}</td>
+					<td>{{  liquidate_form.Liquidate_Ticker }}</td>
+					<td>{{  liquidate_form.SubmitLiquidate }}</td>
+				</form>
+			</tr>
+		</tbody>
+	</table>
+	<hr/>
+
+	<!-- Update Stock Paragraph -->
+	<table align="center">
+		<caption><h2>Update Stock</h2></caption>
+		<thead>
+			<tr>
+				<th>Email</th>
+				<th>Stock</th>
+				<th>New Quantity</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<form action="" method="POST">
+					<td>{{ update_form.Update_Portfolio }}</td>
+					<td>{{ update_form.Update_Ticker }}</td>
+					<td>{{ update_form.New_Quantity }}</td>
+					<td>{{ update_form.SubmitUpdate }}</td>
+				</form>
+			</tr>
+		</tbody>
+	</table>
+	<hr/>
+	
+</body>
+</html>

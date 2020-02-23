@@ -1,0 +1,22 @@
+#TODO
+
+David: 
+- Add ticker & buying price & quantity & email to excel file
+- remove tuple according to email/ticker
+- QA for correct ticker
+- Get list of tickers, price, quantity for given email
+- update quantity for given ticker
+- Be able to take in date or price (if date, scrape price)
+
+Yuxuan:
+- scrape current prices of all tickers for email & calculate current value of portfolio
+- scrape current prices of all tickers for email & show graph of historical prices / other calculations
+
+Amy/Clay:
+- create HTML page with text boxes & buttons to get data and call functions
+- write code to connect HTML page with python scripts
+
+DATABASE SCHEMA: (caps implies primary key)
+
+stock(EMAIL, TICKER, start_price, quantity)
+
